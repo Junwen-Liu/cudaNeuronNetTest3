@@ -1,0 +1,15 @@
+﻿  Compiling CUDA source file main.cu...
+  
+  C:\Users\junwen\Documents\Visual Studio 2019\Project_Repo\cudaNeuronNet\cudaNeuronNet>"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.0\bin\nvcc.exe" -gencode=arch=compute_52,code=\"sm_52,compute_52\" --use-local-env -ccbin "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110\bin\HostX86\x64" -x cu   -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.0\include" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.0\include"     --keep-dir x64\Release -maxrregcount=0  --machine 64 --compile -cudart static     -DWIN32 -DWIN64 -DNDEBUG -D_CONSOLE -D_MBCS -Xcompiler "/EHsc /W3 /nologo /O2 /Fdx64\Release\vc142.pdb /FS /Zi  /MD " -o x64\Release\main.cu.obj "C:\Users\junwen\Documents\Visual Studio 2019\Project_Repo\cudaNeuronNet\cudaNeuronNet\main.cu" 
+C:/Users/junwen/Documents/Visual Studio 2019/Project_Repo/cudaNeuronNet/cudaNeuronNet/main.cu(112): warning : return type of function "main" must be "int"
+  
+C:/Users/junwen/Documents/Visual Studio 2019/Project_Repo/cudaNeuronNet/cudaNeuronNet/main.cu(112): warning : return type of function "main" must be "int"
+  
+  main.cu
+C:\Users\junwen\Documents\Visual Studio 2019\Project_Repo\cudaNeuronNet\cudaNeuronNet\layers/linear_layer.hh(16): warning C4305: 'initializing': truncation from 'double' to 'const float'
+C:/Users/junwen/Documents/Visual Studio 2019/Project_Repo/cudaNeuronNet/cudaNeuronNet/main.cu(28): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+C:/Users/junwen/Documents/Visual Studio 2019/Project_Repo/cudaNeuronNet/cudaNeuronNet/main.cu(99): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+C:/Users/junwen/Documents/Visual Studio 2019/Project_Repo/cudaNeuronNet/cudaNeuronNet/main.cu(103): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
+     Creating library C:\Users\junwen\Documents\Visual Studio 2019\Project_Repo\cudaNeuronNet\x64\Release\cudaNeuronNet.lib and object C:\Users\junwen\Documents\Visual Studio 2019\Project_Repo\cudaNeuronNet\x64\Release\cudaNeuronNet.exp
+  LINK : /LTCG specified but no code generation required; remove /LTCG from the link command line to improve linker performance
+  cudaNeuronNet.vcxproj -> C:\Users\junwen\Documents\Visual Studio 2019\Project_Repo\cudaNeuronNet\x64\Release\cudaNeuronNet.exe
